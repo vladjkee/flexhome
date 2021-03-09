@@ -5,6 +5,8 @@
 body{
   background:no-repeat url(../images/photo-1483729558449-99ef09a8c325.jfif) ;
   background-size: cover;
+  background-position: center;
+  height: 100vh;
   width: 100%;
 }
 .logo{
@@ -26,11 +28,13 @@ header{
   align-items: center;
   background-color: #262626;
   padding: 30px 10px;
+  flex-wrap: wrap;
 
 }
 .nav_links{
   list-style: none;
 }
+
 .nav_links li{
   display: inline-block;
   padding: 0 20px;
